@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6" method="update">
+	<name>PKG_HIGHSLIDEJS</name>
+	<packagename>highslidejs</packagename>
+	<author>Ken Lowther</author>
+	<creationDate>Dec 2012</creationDate>
+	<version>2.5.3</version>
+	<url>http://www.joomlanook.com/</url>
+	<packager>Ken Lowther</packager>
+	<packagerurl>http://www.joomlanook.com/</packagerurl>
+	<description>PKG_HIGHSLIDEJS_XML_DESCRIPTION</description>
+    <files folder="packages">
+		<file type="component" id="com_hsconfig">joomla_2_5_com_hsconfig_2_5_0.zip</file>
+		<file type="plugin" id="highslide" group="system">joomla_2_5_plg_highslide_system_2_5_0.zip</file>
+		<file type="plugin" id="highslide" group="content">joomla_2_5_plg_highslide_2_5_0.zip</file>
+	</files>
+	<languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.pkg_highslidejs.sys.ini</language>
+        <language tag="fr-FR">fr-FR/fr-FR.pkg_highslidejs.sys.ini</language>
+    </languages>
+</extension>
